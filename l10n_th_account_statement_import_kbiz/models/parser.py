@@ -132,6 +132,8 @@ class KBizParser(models.AbstractModel):
     def parse(self, data):
         """Parse a KBiz CSV statement file."""
         statement = self.parse_statement(data)
+        if not statement:
+            raise Exception(_("Unable to parse statement"))
 
         # Account number is masked in download, so cannot be included
         return self.env.ref("base.THB").name, None, [statement]
