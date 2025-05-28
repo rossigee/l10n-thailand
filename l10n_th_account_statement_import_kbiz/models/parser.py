@@ -105,6 +105,11 @@ class KBizParser(models.AbstractModel):
             if rowcount < 13:
                 continue
 
+            # Ignore inert lines (i.e. 'Open Account' line has no credit/debit value)
+            if values[4] == '' and values[6] == '':
+                _logger.warning(_("Inert statement line, no debit or credit (%s)", len(values)))
+                continue
+
             # Check remaining statement lines have expected number of columns
             if len(values) != 13:
                 _logger.warning(_("Wrong number of columns on line (%s)", len(values)))
