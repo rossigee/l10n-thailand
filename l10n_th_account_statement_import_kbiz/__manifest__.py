@@ -6,7 +6,7 @@
     "author": "Ross Golder, Odoo Community Association (OCA)",
     "website": "https://github.com/OCA/l10n-thailand",
     "depends": [
-        "account_statement_import_base",
+        "account_statement_import_file",
     ],
     "data": [
         "views/view_account_statement_import.xml",

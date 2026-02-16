@@ -10,6 +10,20 @@
       "transactions": [
         {
           "date": "2022-11-01",
+          "ref": "Transfer Withdrawal",
+          "payment_ref": "To KTB X5432 JAMES BOND++",
+          "amount": -80000.0,
+          "unique_import_id": "c6b6df2b6303ae82aec450954fdedd8bdd984f6b09092564df1977c8bf9e9625"
+        },
+        {
+          "date": "2022-11-01",
+          "ref": "Transfer Withdrawal",
+          "payment_ref": "To X2345 MRS. Pussy Galore++",
+          "amount": -10000.0,
+          "unique_import_id": "23948274963ebb82a6364495f50d7604cc56a0a76275acd1706183b958fd4dc5"
+        },
+        {
+          "date": "2022-11-01",
           "ref": "Payment",
           "payment_ref": "Paid for Ref X1358 ADVANCED WIRELESS NETWORK CO.,LTD.",
           "amount": -300.0,
@@ -89,8 +103,8 @@
           "date": "2022-11-30",
           "ref": "Automatic Deposit",
           "payment_ref": "From Goldfinger",
-          "amount": 0.0,
-          "unique_import_id": "dbe351dca95ed6b4760f7198f8e4e032713f85ee6fe5ba8fce1e5e6a5e228c17"
+          "amount": 140795.5,
+          "unique_import_id": "eeeb7e3bef39771cb8b6c8a8d90352e2f92b983ac83aecc81f989015868483dc"
         }
       ]
     }

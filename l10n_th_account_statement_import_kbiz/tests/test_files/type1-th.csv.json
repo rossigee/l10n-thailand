@@ -10,6 +10,13 @@
       "transactions": [
         {
           "date": "2023-02-01",
+          "ref": "Transfer Deposit",
+          "payment_ref": "From KTB X0052",
+          "amount": 79901.58,
+          "unique_import_id": "3dabf9fb39bb340826a3fbc74aa44b65a38bb295e3b6cf5e1df8abbc04f01548"
+        },
+        {
+          "date": "2023-02-01",
           "ref": "Cash Withdrawal",
           "payment_ref": "Ref Code K0633724",
           "amount": -300.0,
