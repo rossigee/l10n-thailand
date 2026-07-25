@@ -27,6 +27,7 @@
             </xpath>
             <xpath expr="//field[@name='vat']" position="after">
                 <field name="branch" placeholder="Branch, e.g., 00000" />
+                <field name="name_th" placeholder="Thai Name (ชื่อภาษาไทย)" />
             </xpath>
             <xpath expr="//field[@name='name']" position="attributes">
                 <attribute name="readonly">1</attribute>

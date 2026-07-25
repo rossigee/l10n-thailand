@@ -16,6 +16,11 @@ class ResPartner(models.Model):
     name_company = fields.Char(
         index=True,
     )
+    name_th = fields.Char(
+        string="Thai Name",
+        copy=False,
+        help="Thai language name for contact",
+    )
 
     @api.constrains("company_id", "vat", "branch")
     def _check_company_id_vat_branch(self):
